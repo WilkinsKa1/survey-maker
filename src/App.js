@@ -81,7 +81,7 @@ const App = () => {
       <SurveyList surveys={surveys} deleteSurvey={deleteSurvey} updateStatus={updateStatus} />
       </Router>      
     
-      <SurveyDialog showModal={showModal} closeCreateModal={openCreateModal} handleSubmit={handleSubmit} />
+      <SurveyDialog showModal={showModal} closeCreateModal={closeCreateModal} handleSubmit={handleSubmit} />
     </div>
   );
 }
